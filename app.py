@@ -191,7 +191,7 @@ def rain_effect():
 
 @st.cache_data
 def load_data():
-    return pd.read_excel("india_weather_rainfall_data.xlsx")
+    return pd.read_excel("eda_data.xlsx")
 
 data = load_data()
 
